@@ -14,8 +14,10 @@ nilai_siswa["S04"]= {
     "uas": 90
     } 
 
+print(nilai_siswa)
+
 print("Nilai akhir siswa > 80")
 for x in nilai_siswa.values():
     final = (0.2* x["tugas"]) + (0.3* x["uts"]) + (0.5* x["uas"])
-    if (final > 80):
+    if final > 80:
         print(f"{x["nama"]}: {final}")

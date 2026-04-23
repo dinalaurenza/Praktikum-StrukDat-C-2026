@@ -6,7 +6,7 @@ print(stoklist)
 stoklist.insert(2, 75)
 print(stoklist)
 
-stoklist.sort()
+stoklist.sort(reverse=True)
 print(stoklist)
 
 jumlah_stok=len(stoklist)

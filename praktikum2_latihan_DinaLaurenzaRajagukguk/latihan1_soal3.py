@@ -4,9 +4,17 @@ tim_backend = {"Python", "JavaScript", "SQL",
 
 set3 =tim_frontend .intersection(tim_backend)
 print(set3)
+set3 =tim_frontend & tim_backend
+print(set3)
 
 set3 =tim_frontend .difference(tim_backend)
 print(set3)
+set3 =tim_frontend - tim_backend
+print(set3)
+set3 =tim_backend - tim_frontend
+print(set3)
 
 set3 =tim_frontend .symmetric_difference(tim_backend)
+print(set3)
+set3 =tim_frontend ^ tim_backend
 print(set3)

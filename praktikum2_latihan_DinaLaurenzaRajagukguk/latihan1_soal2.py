@@ -6,8 +6,8 @@ print("harga barang: ", barang[2])
 # print(barang)
 # tidak bisa diubah, dikarenakan tuple bersifat unchangeable atau value (nilai) tidak dapat diubah
 
-(green, yellow, red) = barang
+(kode, nama, harga) = barang
 
-print("kode: ",green)
-print("nama: ",yellow)
-print("harga: ",red)
+print("kode: ",kode)
+print("nama: ",nama)
+print("harga: ",harga)
